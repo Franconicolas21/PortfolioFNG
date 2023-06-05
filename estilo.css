@@ -1,13 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Comienzo del header*/
 header{
-    background-color: aqua;
+    background-color: #202020;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    align-items: center;
 }
 
+.logo{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3em;
+    color: #fec600;
+    margin-left: 2em;
+}
+
+.menu{    
+    margin-left: 15em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 2.5em;
+    font-family: 'Poppins', sans-serif;
+}
+/*Fin del header*/
+
+/*Comienzo del hero*/
 .hero{
-    background-color: aquamarine;
+    background-color: #202020;
+    display: flex;
+    padding-top: 4em;  
 }
 
+.titulo{
+    display: flex; 
+    margin-left: 10em;
+    margin-top: 20em;
+}
+
+.lineaizq{
+    border-left: 5px solid #f3f4f5;
+    height: 5em;
+    position: absolute;
+    left: 7.5em;
+    margin-right: none;
+    padding-right: none;
+    bottom: 12em;
+}
+
+.presentacion h1{ 
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    color: #f3f4f5;
+}
+
+.presentacion p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    color: #fec600;
+}
+
+.buttonhero{
+    padding: .7em 1.9em;
+    border: 3px solid #fec600;
+    background-color: #202020;
+    color: #f3f4f5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    margin-top: 2em;
+}
+
+.redes{
+    margin-top: 8em;
+    margin-left: 5em;
+    justify-content: space-around;
+}
+
+.twitter{
+    color: #202020;
+    width: 1.3em;
+    height: 1.3em;
+    border-radius: 100%;
+    background-color: #f3f4f5;
+    padding: .2em;
+}
+
+.github{
+    color: #202020;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 100%;
+    background-color: #f3f4f5;
+    padding: .2em;
+}
+
+.facebook{
+    color: #202020;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 100%;
+    background-color: #f3f4f5;
+    padding: .2em;
+}
+
+.instagram{
+    width: 1.3em;
+    height: 1.3em;
+    border-radius: 100%;
+    background-color: #f3f4f5;
+    padding: .3em;
+}
+
+.mia{
+    height: 48em;
+    width: 43em;
+    margin-left: 6em;
+}
+
+.derechahero{
+    flex-direction: column;
+}
+
+.treslineas{
+    margin-top: 16em;
+}
+
+.hr1{
+    border: none;
+    width: 2em;
+    border-left: 4px solid #fec600;
+    height: 3em;
+    margin-bottom: 1.5em;
+}   
+
+hr{
+    border: none;
+    width: 2em;
+    border-left: 4px solid #253444;
+    height: 3em;
+    margin-bottom: 1.5em;
+}
+
+.view{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #f3f4f5;
+    font-size: .8em;
+    margin-top: 8em;
+    writing-mode:vertical-lr;
+    transform: rotate(-180deg);
+}
+
+.flecha{
+    width: 1.5em;
+    height: 5em;
+    transform: rotate(-270deg);
+}
+/*Fin del hero*/
+
+/*Comienzo del segundo section*/
 .segundosection{
-    background-color: blue;
+    background-image: linear-gradient(to right,#27292a, #373938);
+    padding-top: 5em;
 }
 
 .tercersection{
@@ -24,4 +186,12 @@ header{
 
 .sextosection{
     background-color: darkred;
+}
+
+.septimosection{
+    background-color: aquamarine;
+}
+
+footer{
+    background-color: yellowgreen;
 }
