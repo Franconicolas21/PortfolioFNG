@@ -649,5 +649,108 @@ textarea{
 
 /*Inicio del footer*/
 footer{
-    background-color: yellowgreen;
+    background-color: #222222;
+    display: flex;
+    padding-bottom: 15em;
+    padding-top: 8em;
+    padding-left: 3em;
+}
+
+.titulofooter{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    color: #f3f4f5;
+    margin-left: 17em;
+}
+
+.datosfooter{
+    margin-left: 10em;
+}
+
+.contactfooter h2{
+    font-family: 'Poppins', sans-serif;
+    color: #fec600;
+    font-size: 1.3em;
+    letter-spacing: .1em;
+    writing-mode:vertical-lr;
+    transform: rotate(-180deg);
+    margin-bottom: 1em;
+    padding-bottom: 3em;
+}
+
+.contactfooter div{
+    border-left: 5px solid #f3f4f5;
+    height: 5em;
+    position: absolute;
+    left: .8em;
+    margin-right: none;
+    padding-right: none;
+}
+
+.imgphone{
+    width: 4em;
+    height: 4em;
+    margin-left: 2em;
+}
+
+.imgubi{
+    width: 2em;
+    height: 2em;
+    margin-left: 2.5em;
+}
+
+.imgemail{
+    width: 2em;
+    height: 2em;
+    margin-left:6em;
+
+}
+
+.iconosfooter{
+    display: flex;
+    margin-top: 3em;
+    margin-left: 5em;
+}
+
+.phone p{
+    font-family: 'Poppins', sans-serif;
+    color: #f3f4f5;
+}
+
+.ubicacion p{
+    font-family: 'Poppins', sans-serif;
+    color: #f3f4f5;
+    margin-top: .1em;
+}
+.pa{
+    margin-left: .7em;
+}
+.ba{
+    margin-left: .2em;
+}
+
+.email p{
+    font-family: 'Poppins', sans-serif;
+    color: #f3f4f5;
+}
+
+.ubicacion{
+    margin-top: 1em;
+    margin-left: 10em;
+}
+
+.email{
+    margin-top: 1em;
+    margin-left: 10em;
+}
+
+.botonfooter button{
+    padding: .7em 1.9em;
+    border: 3px solid #fec600;
+    background-color: transparent;
+    color: #f3f4f5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    margin-top: 2em;
+    margin-left: 17em;
 }
