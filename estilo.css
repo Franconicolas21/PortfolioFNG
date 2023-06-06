@@ -25,11 +25,14 @@ header{
     margin-left: 15em;
 }
 
-a{
+.btn{
     text-decoration: none;
     color: white;
     margin-left: 2.5em;
     font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
 }
 /*Fin del header*/
 
@@ -80,8 +83,10 @@ a{
 
 .redes{
     margin-top: 8em;
-    margin-left: 5em;
-    justify-content: space-around;
+    margin-left: 8em;
+}
+.redes a{
+    margin-left: 2em;
 }
 
 .twitter{
@@ -159,11 +164,6 @@ hr{
     transform: rotate(-180deg);
 }
 
-.flecha{
-    width: 1.5em;
-    height: 5em;
-    transform: rotate(-270deg);
-}
 /*Fin del hero*/
 
 /*Comienzo del segundo section*/
@@ -753,4 +753,130 @@ footer{
     font-size: 1.2em;
     margin-top: 2em;
     margin-left: 17em;
+}
+/*Fin del footer*/
+
+/*Comienzo de las animaciones*/
+
+.twitter:hover{
+    background-color: #fec600;
+}
+
+.github:hover{
+    background-color: #fec600;
+}
+
+.facebook:hover{
+    background-color: #fec600;
+}
+
+.instagram:hover{
+    background-color: #fec600;
+}
+
+.twitter{
+    transition: background .3s;
+}
+
+.github{
+    transition: background .3s;
+}
+
+.facebook{
+    transition: background .3s;
+}
+
+.instagram{
+    transition: background .3s;
+}
+
+.btn:hover{
+   color: #fec600;
+   cursor: pointer;
+}
+
+.btn{
+    transition: transform .3s;
+}
+
+.btn::after{
+    content: "";
+    height: 2px;
+    width: 0%;
+    background: white;
+    transition: .5s ease-in-out;
+    display: block;
+}
+
+.btn:hover::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: #fec600;
+    display: block;
+}
+
+.buttonhero:hover{
+    padding: .7em 1.9em;
+    border: 3px solid #fec600;
+    background-color: #fec600;
+    color: #202020;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+.buttonhero{
+    transition: background .3s,
+                transform .3s;
+}
+
+.eleccion button:hover{
+    padding: .7em 1.9em;
+    border: 3px solid #fec600;
+    background-color: #fec600;
+    color: #202020;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    margin-top: 1.5em;
+    cursor: pointer;
+}
+
+.eleccion button{
+    transition: background .3s,
+                transform .3s;
+}
+
+.formulario button:hover{
+    padding: .7em 1.9em;
+    border: 3px solid #fec600;
+    background-color: #fec600;
+    color: #202020;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+.formulario button{
+    transition: background .3s,
+                transform .3s;
+}
+
+.botonfooter button:hover{
+    padding: .7em 1.9em;
+    border: 3px solid #fec600;
+    background-color: #fec600;
+    color: #202020;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    margin-top: 2em;
+    margin-left: 17em;
+    cursor: pointer;
+}
+
+.botonfooter button{
+    transition: background .3s,
+                transform .3s;
 }
