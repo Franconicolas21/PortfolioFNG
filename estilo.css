@@ -557,9 +557,97 @@ h4{
 
 /*Comienzo del septimo section*/
 .septimosection{
-    background-color: aquamarine;
+    background-image: linear-gradient(to right,#27292a, #373938);
+    display: flex;
+    padding-bottom: 5em;
+    padding-top: 5em;
 }
 
+.contactamehoy{
+    margin-left: 2em;
+}
+
+.unoseptimo h2{
+    font-family: 'Poppins', sans-serif;
+    color: #fec600;
+    font-size: 1.3em;
+    letter-spacing: .1em;
+    writing-mode:vertical-lr;
+    transform: rotate(-180deg);
+    margin-bottom: 1em;
+    margin-top: .6em;
+}
+
+.unoseptimo div{
+    border-left: 5px solid #f3f4f5;
+    height: 5em;
+    position: absolute;
+    left: .8em;
+    margin-right: none;
+    padding-right: none;
+}
+
+.tituloseptimo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    color: #f3f4f5;
+    margin-bottom: .3em;
+}
+
+.tituloseptimo span{
+    color: #fec600;
+}
+
+.pseptimo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    color: #f3f4f5;
+    width: 80%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.xd{
+    font-family: 'Poppins', sans-serif;
+    color: #f3f4f5;
+    margin-top: 3em;
+}
+
+label{
+    font-family: 'Poppins', sans-serif;
+    color: #f3f4f5;
+}
+
+input{
+    padding: 2em 30em 2em 1em;
+    background-color: #414242;
+    border: none;
+    
+}
+
+textarea{
+    padding: 2em 15em 10em 1em;
+    background-color: #414242;
+    resize: none;
+    border: none;
+}
+
+.formulario button{
+    padding: .7em 1.9em;
+    border: 3px solid #fec600;
+    background-color: transparent;
+    color: #f3f4f5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    margin-top: 2em;
+}
+/*Fin del septimo section*/
+
+/*Inicio del footer*/
 footer{
     background-color: yellowgreen;
 }
